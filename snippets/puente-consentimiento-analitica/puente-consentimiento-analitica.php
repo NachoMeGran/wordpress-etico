@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Puente entre el banner de cookies y Consent Mode v2 (solo analítica)
  * Description: Registra si la persona acepta o rechaza la analítica en el banner y lo comunica a la etiqueta de Google con gtag('consent','update'). Opcionalmente, envía el evento sign_up de GA4 cuando un formulario de suscripción muestra su mensaje de éxito.
- * Version:     1.0.0
+ * Version:     0.9.0
  * Author:      Nacho Menéndez Granda
  * Author URI:  https://nachomg.com
  * License:     MIT

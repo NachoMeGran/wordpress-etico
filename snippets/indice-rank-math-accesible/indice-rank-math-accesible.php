@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Índice de Rank Math con nombre accesible
  * Description: Añade aria-label al <nav> del bloque «Tabla de contenidos» de Rank Math para distinguirlo del menú principal.
- * Version:     1.0.0
+ * Version:     0.9.0
  * Author:      Nacho Menéndez Granda
  * Author URI:  https://nachomg.com
  * License:     MIT

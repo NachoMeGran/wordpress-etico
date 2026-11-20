@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Cabeceras de seguridad y XML-RPC desactivado
  * Description: Desactiva XML-RPC y los pingbacks, quita el enlace RSD y X-Pingback, oculta X-Powered-By y envía cabeceras de seguridad en el front.
- * Version:     1.0.0
+ * Version:     0.9.0
  * Author:      Nacho Menéndez Granda
  * Author URI:  https://nachomg.com
  * License:     MIT

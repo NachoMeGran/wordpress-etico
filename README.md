@@ -45,7 +45,7 @@ Todos los archivos PHP pasan `php -l` (PHP 8.3):
 for f in snippets/*/*.php; do php -l "$f"; done
 ```
 
-Antes de publicar los probé con funciones de WordPress simuladas (filtros, salida HTML y el JavaScript del pie con Node). Aun así, prueba cada snippet en un entorno de pruebas antes de llevarlo a producción: los plugins de caché, optimización y seguridad de cada sitio cambian las cosas.
+Se han probado con funciones de WordPress simuladas (filtros, salida HTML y el JavaScript del pie con Node). Aun así, prueba cada snippet en un entorno de pruebas antes de llevarlo a producción: los plugins de caché, optimización y seguridad de cada sitio cambian las cosas.
 
 ## Licencias
 
@@ -56,7 +56,7 @@ Antes de publicar los probé con funciones de WordPress simuladas (filtros, sali
 
 ## Cómo citar
 
-> Menéndez Granda, N. (2026). *WordPress ético: snippets que respetan la privacidad y la accesibilidad* (versión 1.0.0) [Software]. https://github.com/NachoMeGran/wordpress-etico
+> Menéndez Granda, N. (2026). *WordPress ético: snippets que respetan la privacidad y la accesibilidad* (versión 0.9.0) [Software]. https://github.com/NachoMeGran/wordpress-etico
 
 GitHub genera la cita en APA y BibTeX a partir de [`CITATION.cff`](CITATION.cff).
 
@@ -67,3 +67,5 @@ Incidencias y *pull requests* bienvenidos. Criterios en [`CONTRIBUTING.md`](CONT
 ## Autoría
 
 Nacho Menéndez Granda, [consultor de marketing digital en Barcelona](https://nachomg.com/consultor-de-marketing-freelance-en-barcelona/). Escribo sobre marketing ético y uso responsable de la tecnología en [nachomg.com](https://nachomg.com/) y en la newsletter quincenal [Life on marketing](https://nachomg.com/life-on-marketing/). Si necesitas ayuda para aplicar esto en tu web, la vía es la [página de contacto](https://nachomg.com/contacto-profesional/).
+
+**Estado: borrador en revisión.** La recopilación y verificación de fuentes, la estructura y las tareas mecánicas (formato, comprobación de sintaxis, pruebas con funciones simuladas) se hicieron con apoyo de herramientas de IA, el uso que defiendo para esta tecnología. La documentación definitiva la estoy reescribiendo a mano; hasta entonces, trata este material como un documento de trabajo y prueba cada snippet antes de usarlo en producción.

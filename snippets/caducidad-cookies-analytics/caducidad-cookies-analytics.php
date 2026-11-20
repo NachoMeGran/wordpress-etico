@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Caducidad de las cookies de Google Analytics
  * Description: Limita la duración de _ga y _ga_* (por defecto, 13 meses) en la etiqueta de Google Analytics 4 que inserta Site Kit.
- * Version:     1.0.0
+ * Version:     0.9.0
  * Author:      Nacho Menéndez Granda
  * Author URI:  https://nachomg.com
  * License:     MIT

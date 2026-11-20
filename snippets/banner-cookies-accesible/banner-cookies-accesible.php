@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Banner de cookies accesible por teclado
  * Description: Convierte los botones del banner de cookies (construidos con <div>) en botones que se pueden usar con teclado y lector de pantalla, y etiqueta el banner como región.
- * Version:     1.0.0
+ * Version:     0.9.0
  * Author:      Nacho Menéndez Granda
  * Author URI:  https://nachomg.com
  * License:     MIT

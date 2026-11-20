@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Formulario de comentarios accesible y con consentimiento RGPD
  * Description: Etiquetas visibles y autocompletado en el formulario de comentarios, sin campo web, con primera capa de información sobre protección de datos y casilla de consentimiento obligatoria validada en el servidor.
- * Version:     1.0.0
+ * Version:     0.9.0
  * Author:      Nacho Menéndez Granda
  * Author URI:  https://nachomg.com
  * License:     MIT

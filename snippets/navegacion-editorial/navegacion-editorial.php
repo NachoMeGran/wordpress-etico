@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Navegación editorial sin terceros
  * Description: Ruta a la guía de cada categoría, aviso de antigüedad, botones de compartir sin scripts de terceros, entradas relacionadas y cabecera de categoría.
- * Version:     1.0.0
+ * Version:     0.9.0
  * Author:      Nacho Menéndez Granda
  * Author URI:  https://nachomg.com
  * License:     MIT

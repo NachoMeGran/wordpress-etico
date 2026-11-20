@@ -2,7 +2,9 @@
 
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y versiones según [SemVer](https://semver.org/lang/es/).
 
-## [1.0.0] - 2026-11-20
+## [0.9.0] - 2026-11-20
+
+Borrador previo a la reescritura manual del autor.
 
 ### Añadido
 
