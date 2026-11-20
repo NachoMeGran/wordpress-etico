@@ -1,0 +1,96 @@
+/*
+ * Formulario de comentarios accesible y con consentimiento RGPD.
+ * Adaptado del CSS de nachomg.com con variables genéricas. Ajusta los valores de :root a tu tema.
+ * Licencia: MIT.
+ */
+:root {
+	--wpe-texto: #0a0a0a;
+	--wpe-texto-suave: #4a4a4a;
+	--wpe-fondo: #ffffff;
+	--wpe-acento: #ffe600;
+	--wpe-fuente-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.comment-form {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	gap: 16px 20px;
+	padding: clamp(18px, 3vw, 28px);
+	background: var(--wpe-fondo);
+	border: 2px solid var(--wpe-texto);
+}
+@media (min-width: 640px) {
+	.comment-form { grid-template-columns: 1fr 1fr; }
+	.comment-form > .comment-notes,
+	.comment-form > .comment-form-comment,
+	.comment-form > .wpe-check,
+	.comment-form > .wpe-rgpd,
+	.comment-form > .form-submit,
+	.comment-form > .logged-in-as { grid-column: 1 / -1; }
+}
+.comment-form p { margin: 0; }
+
+/* Etiquetas siempre visibles, encima del campo */
+.comment-form .wpe-field label {
+	display: block;
+	margin: 0 0 6px;
+	font-family: var(--wpe-fuente-mono);
+	font-size: .8125rem;
+	letter-spacing: .04em;
+	text-transform: uppercase;
+}
+.comment-form .wpe-hint { text-transform: none; color: var(--wpe-texto-suave); }
+.wpe-req { font-weight: 700; }
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+	width: 100%;
+	min-height: 52px;
+	padding: .75em 1em;
+	font: inherit;
+	font-size: 1rem;                 /* 16 px evita el zoom automático en iOS */
+	color: var(--wpe-texto);
+	background: var(--wpe-fondo);
+	border: 2px solid var(--wpe-texto);
+	border-radius: 0;
+}
+.comment-form textarea { min-height: 170px; resize: vertical; }
+.comment-form :is(input, textarea):focus-visible {
+	outline: 3px solid var(--wpe-texto);
+	outline-offset: 2px;
+	box-shadow: 0 0 0 6px var(--wpe-acento);
+}
+
+/* Casillas con etiqueta clicable y objetivo grande */
+.comment-form .wpe-check { display: flex; align-items: flex-start; gap: 10px; }
+.comment-form .wpe-check input { flex: none; width: 24px; height: 24px; margin: 1px 0 0; accent-color: var(--wpe-texto); }
+.comment-form .wpe-check label { font-size: .9375rem; line-height: 1.45; cursor: pointer; }
+
+/* Primera capa de protección de datos */
+.wpe-rgpd {
+	margin: 2px 0 0;
+	padding-top: 12px;
+	font-size: .8125rem;
+	line-height: 1.5;
+	color: var(--wpe-texto-suave);
+	border-top: 1px solid rgba(10, 10, 10, .25);
+}
+.wpe-rgpd a { color: var(--wpe-texto); text-decoration: underline; }
+
+/* Botón de envío */
+.comment-form .form-submit { display: flex; }
+.comment-form .submit {
+	min-height: 52px;
+	padding: .7em 1.4em;
+	font: inherit;
+	font-size: 1rem;
+	font-weight: 600;
+	color: #fff;
+	background: var(--wpe-texto);
+	border: 2px solid var(--wpe-texto);
+	border-radius: 0;
+	cursor: pointer;
+}
+.comment-form .submit:hover,
+.comment-form .submit:focus-visible { background: var(--wpe-acento); color: var(--wpe-texto); }

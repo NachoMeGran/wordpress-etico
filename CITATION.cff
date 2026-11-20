@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Si usas este código o esta documentación, cítalos así."
+type: software
+title: "WordPress ético: snippets que respetan la privacidad y la accesibilidad"
+abstract: "Siete snippets de WordPress extraídos de nachomg.com y generalizados: consentimiento de analítica con Consent Mode v2, cabeceras de seguridad, formulario de comentarios con RGPD, banner de cookies accesible, caducidad de cookies de Google Analytics, índice de Rank Math accesible y navegación editorial sin scripts de terceros."
+authors:
+  - family-names: "Menéndez Granda"
+    given-names: "Nacho"
+    website: "https://nachomg.com"
+version: "1.0.0"
+date-released: "2026-11-20"
+license: "MIT"
+repository-code: "https://github.com/NachoMeGran/wordpress-etico"
+url: "https://nachomg.com"
+keywords:
+  - "WordPress"
+  - "privacidad"
+  - "accesibilidad"
+  - "RGPD"
+  - "Consent Mode"
+  - "cookies"
